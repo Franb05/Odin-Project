@@ -17,6 +17,10 @@ nav, a {
     color: #E5E7EB;
 }
 
+main {
+    background-color: #ffffff;
+}
+
 .hero {
     background-color: #1f2937;
     font-size: 48px;
@@ -28,6 +32,8 @@ nav, a {
 font-size: 18px;
 color: #E5E7EB;
 }
+
+
 
 aside {
     background-color: #E5E7EB;
