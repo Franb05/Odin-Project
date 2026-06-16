@@ -21,6 +21,16 @@ main {
     background-color: #ffffff;
 }
 
+aside {
+    background-color: #E5E7EB;
+}
+
+#p_aside {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
 .hero {
     background-color: #1f2937;
     font-size: 48px;
@@ -37,4 +47,24 @@ color: #E5E7EB;
 
 aside {
     background-color: #E5E7EB;
+}
+
+#title_mates {
+    text-align: center;
+}
+
+.contenedor_mates {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.mate {
+    width: 150px;            /* ancho de cada bloque */
+    text-align: center;      /* centra texto e imagen */
+}
+
+.mate img {
+    width: 100px;
+    height: auto;
 }
