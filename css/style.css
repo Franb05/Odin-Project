@@ -68,3 +68,9 @@ aside {
     width: 100px;
     height: auto;
 }
+
+footer {
+    color: #E5E7EB;
+    padding: 1.5rem 0;
+    text-align: center;
+}
