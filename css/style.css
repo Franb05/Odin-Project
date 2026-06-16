@@ -27,6 +27,38 @@ nav, a {
     color: #E5E7EB;
 }
 
+.hero {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.hero_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+    gap: 3rem;
+
+    padding: 6rem 0;
+}
+
+.hero_text {
+    flex: 1;
+}
+
+.hero_img {
+    flex: 1;
+}
+
+.hero_img img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
 main {
     background-color: #ffffff;
 }
@@ -39,24 +71,6 @@ aside {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
-}
-
-.hero {
-    background-color: #1f2937;
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight:900;
-}
-
-.hero p {
-font-size: 18px;
-color: #E5E7EB;
-}
-
-
-
-aside {
-    background-color: #E5E7EB;
 }
 
 #title_mates {
