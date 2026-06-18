@@ -49,6 +49,29 @@ nav, a {
     flex: 1;
 }
 
+button:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(3, 6, 172);
+    cursor: pointer;
+}
+
+#button_one {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+#button_two {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
+    border-radius: 0.4rem;
+}
+
 .hero_img {
     flex: 1;
 }
