@@ -54,7 +54,7 @@ button:hover{
     cursor: pointer;
 }
 
-#button_one {
+.button_one {
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 1rem;
@@ -63,7 +63,7 @@ button:hover{
     border-radius: 0.4rem;
 }
 
-#button_two {
+.button_two {
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 1rem;
@@ -126,6 +126,35 @@ aside h4 {
 .mate img {
     width: 100px;
     height: auto;
+}
+
+.llamado_accion {
+    display: flex;                  /* Texto y botón en una fila */
+    justify-content: space-between; /* Los separa */
+    align-items: center;            /* Centra verticalmente */
+
+    max-width: 1000px;              /* Limita el ancho */
+    margin: 6rem auto;              /* Centra la sección */
+
+    padding: 3rem 6rem;             /* Espaciado interno */
+
+    background-color: #3882F6;      /* Azul característico */
+    border-radius: 0.5rem;          /* Bordes redondeados */
+}
+
+.texto_accion h3 {
+    color: #F9FAF8;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    margin-bottom: 0.3rem;
+}
+
+.texto_accion p {
+    color: #E5E7EB;
+
+    font-size: 1rem;
 }
 
 footer {
