@@ -1,5 +1,5 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -90,10 +90,22 @@ aside {
     background-color: #E5E7EB;
 }
 
-#p_aside {
-    font-size: 36px;
+aside p {
     color: #1f2937;
-    font-weight: 300;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 1.3;
+}
+
+aside h4 {
+    max-width: 800px;
+    margin: 1rem auto 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
 }
 
 #title_mates {
